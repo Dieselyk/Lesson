@@ -6,7 +6,7 @@ print('Name:', name)
 age = 29
 print('age:', age)
 
-age = 30
+age = age + 2
 print('New Age:', age)
 
 is_student = True
