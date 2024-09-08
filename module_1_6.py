@@ -3,8 +3,8 @@ print(my_dict)
 print(my_dict['Den'])
 my_dict.update({'Tom': 1992,
                 'Tim': 1999})
-del my_dict['Max']
-print(my_dict.get('Max'))
+a = my_dict.pop('Max')
+print(a)
 print(my_dict)
 
 
